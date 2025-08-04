@@ -1,0 +1,145 @@
+/* 1. Importando fonte Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* 2. Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 3. Variáveis de cor */
+:root {
+    --rosa-principal: #CC8D9E;
+    --branco: #FFFFFF;
+    --cinza-texto: #666666;
+    --margem-lateral: 200px;
+}
+
+/* 4. Estilo geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--branco);
+    color: var(--cinza-texto);
+}
+
+/* 5. Container com margens laterais (ajustável com media queries) */
+.page-container {
+    padding-left: var(--margem-lateral);
+    padding-right: var(--margem-lateral);
+}
+
+/* 6. Títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--rosa-principal);
+    font-weight: 600;
+}
+
+/* 7. Parágrafos e textos */
+p {
+    color: var(--cinza-texto);
+    font-weight: 400;
+}
+
+/* 8. Botões */
+.btn-custom {
+    background-color: var(--rosa-principal);
+    color: var(--branco);
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+}
+
+/* 9. Ícones sociais */
+.social-icon {
+    width: 32px;
+    height: 32px;
+    margin: 0 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* 10. Cards de valores (Confiança, Qualidade, etc) */
+.value-card {
+    background-color: var(--rosa-principal);
+    color: var(--branco);
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.value-card h3 {
+    color: var(--branco);
+    margin-top: 12px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.value-card p {
+    color: var(--branco);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/* 11. Rodapé */
+footer {
+    background-color: var(--rosa-principal);
+    color: var(--branco);
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+/* 12. Responsividade */
+@media (max-width: 1200px) {
+    .page-container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .value-card {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .btn-custom {
+        width: 100%;
+    }
+
+    .social-icon {
+        width: 28px;
+        height: 28px;
+    }
+}
