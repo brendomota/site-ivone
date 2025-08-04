@@ -14,13 +14,13 @@ function Header() {
                 <h2 className="header-title m-0">Artes da Ivone - Costura Criativa</h2>
             </div>
             <div className="social-icons d-flex align-items-center">
-                <a href="#" className="social-link">
+                <a href="https://www.instagram.com/artes_da_ivone" className="social-link">
                     <img src={instagram} alt="Instagram" className="social-icon" />
                 </a>
-                <a href="#" className="social-link">
+                <a href="https://wa.me/5512988635412" className="social-link">
                     <img src={whatsapp} alt="WhatsApp" className="social-icon" />
                 </a>
-                <a href="#" className="social-link">
+                <a href="https://www.facebook.com/ivone.tase" className="social-link">
                     <img src={facebook} alt="Facebook" className="social-icon" />
                 </a>
             </div>
