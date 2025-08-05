@@ -1,5 +1,5 @@
 .secao1 {
-    padding: 5rem 12.5rem;
+    padding: 6rem 12.5rem;
     background-color: #ffffff;
 }
 
@@ -47,6 +47,8 @@
 
 .btn-custom:hover {
     transform: scale(1.1);
+    background-color: #CC8D9E;
+    color: #ffffff;
 }
 
 /* Responsivo */

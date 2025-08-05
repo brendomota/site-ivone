@@ -16,7 +16,7 @@ function Secao1() {
                 <p className="secao1-descricao">
                     Confira abaixo algumas das criações que já costurei com carinho.
                 </p>
-                <button className="btn btn-custom mt-4">Entre em Contato</button>
+                <button className="btn btn-custom mt-4" onClick={() => window.location.href="https://wa.me/5512988635412"}>Entre em Contato</button>
             </div>
         </section>
     )

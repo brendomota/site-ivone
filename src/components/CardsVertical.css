@@ -53,6 +53,10 @@
         margin: 0 auto;
     }
 
+    .icon-card {
+        width: 4rem;
+    }
+
     .titulo-card {
         font-size: 1.5rem;
     }
@@ -66,10 +70,6 @@
 @media (max-width: 480px) {
     .cards-vertical {
         padding: 2.5rem 1.25rem;
-    }
-
-    .icon-card {
-        width: 4rem;
     }
 
     .titulo-card {
