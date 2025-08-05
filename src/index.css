@@ -1,35 +1,32 @@
-/* 1. Importando fonte Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-/* 2. Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* 3. Variáveis de cor */
 :root {
     --rosa-principal: #CC8D9E;
     --branco: #FFFFFF;
     --cinza-texto: #666666;
-    --margem-lateral: 200px;
+    --margem-lateral: 12.5rem;
+    /* 200px */
 }
 
-/* 4. Estilo geral */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--branco);
     color: var(--cinza-texto);
+    font-size: 1rem;
+    /* base = 16px */
 }
 
-/* 5. Container com margens laterais (ajustável com media queries) */
 .page-container {
     padding-left: var(--margem-lateral);
     padding-right: var(--margem-lateral);
 }
 
-/* 6. Títulos */
 h1,
 h2,
 h3,
@@ -40,98 +37,79 @@ h6 {
     font-weight: 600;
 }
 
-/* 7. Parágrafos e textos */
 p {
     color: var(--cinza-texto);
     font-weight: 400;
 }
 
-/* 8. Botões */
-.btn-custom {
-    background-color: var(--rosa-principal);
-    color: var(--branco);
-    border: none;
-    padding: 10px 24px;
-    border-radius: 6px;
-    font-weight: 500;
-    transition: transform 0.2s ease-in-out;
-}
-
-.btn-custom:hover {
-    transform: scale(1.05);
-}
-
-/* 9. Ícones sociais */
 .social-icon {
-    width: 32px;
-    height: 32px;
-    margin: 0 8px;
+    width: 2rem;
+    /* 32px */
+    height: 2rem;
+    margin: 0 0.5rem;
     transition: transform 0.2s ease-in-out;
 }
 
 .social-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
-/* 10. Cards de valores (Confiança, Qualidade, etc) */
 .value-card {
     background-color: var(--rosa-principal);
     color: var(--branco);
     text-align: center;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 24px;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .value-card h3 {
     color: var(--branco);
-    margin-top: 12px;
-    margin-bottom: 8px;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
     font-weight: 600;
 }
 
 .value-card p {
     color: var(--branco);
     font-weight: 300;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
-/* 11. Rodapé */
 footer {
     background-color: var(--rosa-principal);
     color: var(--branco);
     text-align: center;
-    padding: 40px 0 20px 0;
+    padding: 2.5rem 0 1.25rem 0;
 }
 
 footer p {
-    font-size: 14px;
-    margin-top: 16px;
+    font-size: 0.875rem;
+    margin-top: 1rem;
 }
 
-/* 12. Responsividade */
 @media (max-width: 1200px) {
     .page-container {
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 6.25rem;
+        padding-right: 6.25rem;
     }
 }
 
 @media (max-width: 768px) {
     .page-container {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
     .value-card {
-        margin-bottom: 16px;
+        margin-bottom: 1rem;
     }
 }
 
 @media (max-width: 480px) {
     .page-container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
     }
 
     .btn-custom {
@@ -139,7 +117,7 @@ footer p {
     }
 
     .social-icon {
-        width: 28px;
-        height: 28px;
+        width: 1.75rem;
+        height: 1.75rem;
     }
 }

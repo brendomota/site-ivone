@@ -1,10 +1,11 @@
-import Header from '../components/Header.tsx'
+import Header from '../components/Header'
+import Secao1 from '../components/Secao1'
 
 function Home() {
   return (
     <>
       <Header />
-      {/* Outras seções serão adicionadas aqui depois */}
+      <Secao1 />
     </>
   )
 }
