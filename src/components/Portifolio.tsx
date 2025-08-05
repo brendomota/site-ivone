@@ -13,7 +13,7 @@ function Portifolio() {
     return (
         <section className="portifolio">  
 
-            <h1 className="portifolio-titulo">PORTIFÓLIO</h1>
+            <h1 className="portifolio-titulo">PORTFÓLIO</h1>
 
             <Imagens data = {slides} onClick={(currentIndex) => setIndex(currentIndex)} />
 
