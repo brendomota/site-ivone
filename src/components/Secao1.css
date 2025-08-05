@@ -54,7 +54,12 @@
 /* Responsivo */
 @media (max-width: 1200px) {
     .secao1 {
-        padding: 5rem 6.25rem;
+        padding: 6rem 6.25rem;
+    }
+
+    .secao1-imagem img {
+        max-width: 50%;
+        height: auto;
     }
 }
 
@@ -90,7 +95,7 @@
 
 @media (max-width: 480px) {
     .secao1 {
-        padding: 2.5rem 1.25rem;
+        padding: 3.5rem 1.25rem;
         gap: 1.5rem;
     }
 
