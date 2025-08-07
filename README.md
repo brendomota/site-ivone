@@ -1,69 +1,91 @@
-# React + TypeScript + Vite
+# 🎀 Artes da Ivone – Costura Criativa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório do site **Artes da Ivone**, um projeto que apresenta o portfólio de artesanato da talentosa Ivone. O site foi desenvolvido com foco em mostrar suas criações feitas à mão, como estojos, necessaires, porta óculos, porta celular e muitos outros produtos costurados com estampas floridas e cheios de personalidade.
 
-Currently, two official plugins are available:
+## 🌐 Acesse o site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➡️ [Clique aqui para visitar o site](https://brendomota.github.io/site-ivone/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🧵 Sobre o Projeto
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+O site tem como objetivo principal destacar o trabalho artesanal da Ivone. Com um design delicado e acolhedor, ele transmite o carinho presente em cada peça costurada à mão.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### ✨ Funcionalidades
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Exibição de portfólio com fotos reais dos produtos
+- Destaques sobre os diferenciais do trabalho (confiança, qualidade, exclusividade)
+- Design responsivo para diferentes tamanhos de tela
+- Botão de contato com chamada para ação
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30" alt="React"/><br/>
+      <sub>React</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30" height="30" alt="TypeScript"/><br/>
+      <sub>TypeScript</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30" height="30" alt="JavaScript"/><br/>
+      <sub>JavaScript</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30" height="30" alt="HTML5"/><br/>
+      <sub>HTML5</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="30" height="30" alt="CSS3"/><br/>
+      <sub>CSS3</sub>
+    </td>
+  </tr>
+</table>
+
+
+---
+
+## 📸 Protótipo
+
+Veja abaixo uma prévia visual do site:
+
+[Protótipo do site Ivone](https://www.figma.com/proto/6v9UuOsjLi9rOsU6fyaosu/Portif%C3%B3lio-Ivone?node-id=3-6&t=kLdHcXV6IjT6QbyH-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A6)
+
+---
+
+## 🚀 Como Rodar o Projeto Localmente
+```bash
+# Clone o repositório
+git clone https://github.com/brendomota/site-ivone.git
+
+# Acesse a pasta do projeto
+cd site-ivone
+
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📬 Contato
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Caso tenha interesse em entrar em contato com a artesã Ivone, utilize os botões disponíveis no site para Instagram, WhatsApp ou Facebook.
+
+---
+
+## 🧡 Agradecimentos
+
+Este projeto foi criado com carinho para valorizar o trabalho manual e a dedicação de uma artesã que transforma tecidos em arte. 
+
+---
+
+© 2025 Ivone | Todos os direitos reservados.
