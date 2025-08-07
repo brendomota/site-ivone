@@ -1,15 +1,24 @@
 import './App.css'
 import Home from './pages/Home'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
+import Loader from './components/Loader'
 
 function App() {
+  const [loading, setLoading] = useState(true)
+
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+
+    const timer = setTimeout(() => {
+      setLoading(false)
+    }, 1500)
+
+    return () => clearTimeout(timer)
   }, [])
 
   return (
     <>
-      <Home />
+      {loading ? <Loader /> : <Home />}
     </>
   )
 }
