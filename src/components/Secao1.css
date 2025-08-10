@@ -1,5 +1,5 @@
 .secao1 {
-    padding: 6rem 12.5rem;
+    padding: 9rem 12.5rem;
     background-color: #ffffff;
 }
 
@@ -52,6 +52,12 @@
 }
 
 /* Responsivo */
+@media (max-width: 1920px) {
+    .secao1 {
+        padding: 6rem 12.25rem;
+    }
+}
+
 @media (max-width: 1200px) {
     .secao1 {
         padding: 6rem 6.25rem;

@@ -1,4 +1,4 @@
-import imagemSecao1 from '../assets/imagem-secao1/ImagemSecao1Rosa.png'
+import imagemSecao1 from '../assets/imagem-secao1/ImagemSecao1RosaJPG.jpg'
 import './Secao1.css'
 
 function Secao1() {
