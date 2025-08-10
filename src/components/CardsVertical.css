@@ -1,5 +1,5 @@
 .cards-vertical {
-    padding: 5rem 12.5rem;
+    padding: 4rem 12.5rem;
     background-color: #CC8D9E;
     gap: 2rem;
 }
@@ -33,9 +33,16 @@
 }
 
 /* Responsivo */
+@media (max-width: 1520px) {
+    .card-valor {
+        min-width: 16rem;
+        max-width: 18rem;
+    }
+}
+
 @media (max-width: 1200px) {
     .cards-vertical {
-        padding: 5rem 6.25rem;
+        padding: 6rem 6.25rem;
     }
 }
 

@@ -58,6 +58,13 @@
     }
 }
 
+@media (max-width: 1520px) {
+    .secao1-imagem img {
+        max-width: 50%;
+        height: auto;
+    }
+}
+
 @media (max-width: 1200px) {
     .secao1 {
         padding: 6rem 6.25rem;
